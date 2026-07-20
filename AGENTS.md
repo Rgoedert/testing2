@@ -7,6 +7,7 @@ This is a simple static-pages project. No build step, no framework.
 - Each page is a single self-contained `.html` file (inline `<style>` in the `<head>`, no separate CSS files unless a page grows large enough to need one).
 - No JavaScript unless the task explicitly asks for interactivity.
 - New pages go in the repo root, named after their content in lowercase-with-hyphens (e.g. `waterford-ireland.html`).
+- `home.html` is the site index: a simple list of links to every other page. Whenever a new page is created, add a link to it in `home.html` in the same task -- don't leave pages orphaned.
 
 ## Conventions
 
