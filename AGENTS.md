@@ -18,8 +18,9 @@ This is a simple static-pages project. No build step, no framework.
 - Use semantic HTML tags (`<header>`, `<main>`, `<section>`, `<footer>`) over generic `<div>` soup where reasonable.
 - Keep inline styles in one `<style>` block in `<head>`, not scattered `style=""` attributes, unless it's a one-off tweak.
 
-
 ## Change log
 
 - Added `winterfell-fest.html` page for Winterfell Fest in Waterford, Ireland.
 - Created `home.html` and added a link to the Winterfell Fest page.
+- Added `waterford-ireland.html` page for the GAA in Waterford, Ireland.
+- Updated `home.html` with a link to the new page.
