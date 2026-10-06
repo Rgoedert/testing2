@@ -23,3 +23,4 @@ This is a simple static-pages project. No build step, no framework.
 
 - Added `winterfell-fest.html` page for Winterfell Fest in Waterford, Ireland.
 - Created `home.html` and added a link to the Winterfell Fest page.
+- Added `new-page.html` and updated `home.html` with link.
