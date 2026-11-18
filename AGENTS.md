@@ -25,3 +25,5 @@ This is a simple static-pages project. No build step, no framework.
 - Created `home.html` and added a link to the Winterfell Fest page.
 - Added `about.html` page with project information and team details.
 - Updated `home.html` to include a link to the about page.
+- Added `contact.html` page with contact information.
+- Updated `home.html` to include a link to the contact page.
