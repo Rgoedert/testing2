@@ -31,3 +31,5 @@ This is a simple static-pages project. No build step, no framework.
 - Updated `home.html` to include a link to the events page.
 - Added `terms-and-conditions.html` page with standard legal text.
 - Updated `home.html` to include a link to the terms and conditions page.
+- Added `privacy-policy.html` page with privacy policy information.
+- Updated `home.html` to include a link to the privacy policy page.
