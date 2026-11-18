@@ -29,3 +29,5 @@ This is a simple static-pages project. No build step, no framework.
 - Updated `home.html` to include a link to the contact page.
 - Added `events.html` page listing Winterfell Fest and team gathering events.
 - Updated `home.html` to include a link to the events page.
+- Added `terms-and-conditions.html` page with standard legal text.
+- Updated `home.html` to include a link to the terms and conditions page.
