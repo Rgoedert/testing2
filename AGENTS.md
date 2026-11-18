@@ -27,3 +27,5 @@ This is a simple static-pages project. No build step, no framework.
 - Updated `home.html` to include a link to the about page.
 - Added `contact.html` page with contact information.
 - Updated `home.html` to include a link to the contact page.
+- Added `events.html` page listing Winterfell Fest and team gathering events.
+- Updated `home.html` to include a link to the events page.
