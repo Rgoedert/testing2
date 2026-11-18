@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Gallery</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-color: #f4f4f4;
+      }
+      header {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      h1 {
+        color: #333;
+      }
+      .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        justify-content: center;
+      }
+      .gallery-item {
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        background-color: white;
+        transition: transform 0.2s;
+        max-width: 300px;
+      }
+      .gallery-item:hover {
+        transform: translateY(-5px);
+      }
+      .gallery-item img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+      .gallery-item figcaption {
+        padding: 10px;
+        text-align: center;
+        color: #555;
+        font-size: 0.9em;
+      }
+      footer {
+        text-align: center;
+        margin-top: 30px;
+        color: #777;
+        font-size: 0.9em;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Gallery</h1>
+    </header>
+    <main class="gallery">
+      <figure class="gallery-item">
+        <img src="https://via.placeholder.com/300x200?text=Image+1" alt="Gallery Image 1">
+        <figcaption>Descriptive caption for image 1</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://via.placeholder.com/300x200?text=Image+2" alt="Gallery Image 2">
+        <figcaption>Descriptive caption for image 2</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://via.placeholder.com/300x200?text=Image+3" alt="Gallery Image 3">
+        <figcaption>Descriptive caption for image 3</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://via.placeholder.com/300x200?text=Image+4" alt="Gallery Image 4">
+        <figcaption>Descriptive caption for image 4</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://via.placeholder.com/300x200?text=Image+5" alt="Gallery Image 5">
+        <figcaption>Descriptive caption for image 5</figcaption>
+      </figure>
+      <figure class="gallery-item">
+        <img src="https://via.placeholder.com/300x200?text=Image+6" alt="Gallery Image 6">
+        <figcaption>Descriptive caption for image 6</figcaption>
+      </figure>
+    </main>
+    <footer>
+      <p>&copy; 2025 Testing Project. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
